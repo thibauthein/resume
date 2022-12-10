@@ -11,7 +11,7 @@ export default class Person extends Component {
 	render() {
 		return (
 			<>
-				<div {...storyblokEditable(this.props.blok)} className={css["wrapper"]}dhaej>
+				<div {...storyblokEditable(this.props.blok)} className={css["wrapper"]}>
 					<div className={css["content"]}>
 						<div className={[css["box"], css["head"]].join(" ")}>
 							<h1>Resume {this.props.blok.title} {this.props.blok.lastname} {this.props.blok.firstname}</h1>
